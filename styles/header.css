@@ -15,6 +15,16 @@ align-items: center;
 gap: 32px;
 }
 
+#profile > div {
+  max-width: 384px;
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  object-fit: cover;  
+}
 
 #profile h1 {
   font: var(--txt-lg);
@@ -22,9 +32,7 @@ gap: 32px;
   margin-bottom: 8px;
 }
 
-#profile p {
-  
-}
+
 
 #info {
   list-style: none;
